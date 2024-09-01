@@ -1,0 +1,11 @@
+data<-data.frame(col1=c(1:10),col2=c(11:20),col3=c(30:21),col4=c(3,5,2,1,7,6,9,2,3,4))
+data
+cor(data[,1],data)
+cor(data[,1],data[,2])
+cor(data[,1],data[,3])
+cor(data[,1],data[,4])
+cor(data[,3],data[,4])
+cor(data[,c('col1','col4','col2')])
+cor(data[,c('col2','col3','col4')])
+cor(data[,c('col1','col2','col3','col4')])
+cor(data)
